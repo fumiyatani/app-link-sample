@@ -26,7 +26,7 @@
                 <data
                     android:scheme="https"
                     android:host="fumiyatani.github.io"
-                    android:pathPrefix="/comment/" />
+                    android:pathPrefix="/comment" />
             </intent-filter>
         </activity>
     </application>
