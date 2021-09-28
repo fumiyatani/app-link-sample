@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity() {
         if (Intent.ACTION_VIEW == appLinkAction && appLinkData != null) {
             val comment: String = """
                 lastPathSegment: ${appLinkData.lastPathSegment}
-                id: ${appLinkData.getQueryParameter("id")}
-                name: ${appLinkData.getQueryParameter("name")}
+                hoge: ${appLinkData.getQueryParameter("hoge")}
+                fuga: ${appLinkData.getQueryParameter("fuga")}
             """.trimIndent()
             findViewById<TextView>(R.id.tv_app_links).text = comment
         }
